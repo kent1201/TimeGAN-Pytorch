@@ -10,11 +10,11 @@ Please change the branch to `master`
 
 
 ## TimeGAN architecture
-![TimeGAN architecture](https://github.com/kent1201/TimeGAN-Pytorch/blob/main/TimeGAN%20architecture.jpg)
+![TimeGAN architecture](https://github.com/kent1201/TimeGAN-Pytorch/blob/main/src/TimeGAN%20architecture.jpg)
 
 ## Action base Datasets
 使用 20 類人體下肢動作訊號數據集對 TimeGAN 進行訓練。總計 3796 筆，每筆動作包含三軸加速度，陀螺儀與四元數資料，經過轉換後總計 27 個維度。其中訓練資料 2847 筆，測試資料 949 筆。以下為 20 類動作資料筆數:
-![Action base datasets](https://github.com/kent1201/TimeGAN-Pytorch/blob/master/src/image.png)
+![Action base datasets](https://github.com/kent1201/TimeGAN-Pytorch/blob/main/src/image.png)
 
 ## Project architecture
 `\Loss` 內含不同 train stages (encoder, decoder, generator, ...) 會用到的 loss。  
@@ -46,21 +46,21 @@ Please change the branch to `master`
 ## Project results
 * Original Accuracy: 77.76 %
 <br/> </br>
-![TRTR](https://github.com/kent1201/TimeGAN-Pytorch/blob/master/src/TRTR_7776.jpg)
+![TRTR](https://github.com/kent1201/TimeGAN-Pytorch/blob/main/src/TRTR_7776.jpg)
 <br/> </br>
 * Train on syntheitc, test on real Accuracy: 76.73 %
 <br/> </br>
-![TSTR](https://github.com/kent1201/TimeGAN-Pytorch/blob/master/src/TSTR_7673.jpg)
+![TSTR](https://github.com/kent1201/TimeGAN-Pytorch/blob/main/src/TSTR_7673.jpg)
 <br/> </br>
 * Train on mix, test on real Accuracy: 83.47 %
 <br/> </br>
-![TMTR](https://github.com/kent1201/TimeGAN-Pytorch/blob/master/src/TMTR_8347.jpg)
+![TMTR](https://github.com/kent1201/TimeGAN-Pytorch/blob/main/src/TMTR_8347.jpg)
 <br/> </br>
 * t-SNE
 <br/> </br>
-![tSNE1-10](https://github.com/kent1201/TimeGAN-Pytorch/blob/master/src/tSNE1_10.jpg)
+![tSNE1-10](https://github.com/kent1201/TimeGAN-Pytorch/blob/main/src/tSNE1_10.jpg)
 <br/> </br>
-![tSNE11-20](https://github.com/kent1201/TimeGAN-Pytorch/blob/master/src/tSNE11_20.jpg)
+![tSNE11-20](https://github.com/kent1201/TimeGAN-Pytorch/blob/main/src/tSNE11_20.jpg)
 <br/> </br>
 
 ## Requirements
@@ -73,7 +73,7 @@ or
 pip install -r requirements.txt
 ```
 ## How to use 
->Set the [configure.ini](https://github.com/kent1201/TimeGAN-Pytorch/blob/master/src/TimeGAN-Configure.pptx) 
+>Set the [configure.ini](https://github.com/kent1201/TimeGAN-Pytorch/blob/main/src/TimeGAN-Configure.pptx) 
 >
 >conda create your environment 
 >
@@ -87,5 +87,3 @@ python data_visualization.py
 python test.py
 ```
 * **Notice** 無提供 Dataset，請自行根據使用的 dataset 自行調整程式內容。
-
->>>>>>> master
