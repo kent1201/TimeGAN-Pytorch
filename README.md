@@ -1,7 +1,3 @@
-# TimeGAN-Pytorch
-Time generative adversarial network (Pytorch)   
-Please change the branch to `master`
-=======
 # TimeGAN: A Pytorch Implementation
 **This is a PyTorch implementation of the TimeGAN in "[Time-series Generative Adversarial Networks](https://papers.nips.cc/paper/2019/hash/c9efe5f26cd17ba6216bbe2a7d26d490-Abstract.html)" (Jinsung Yoon, Daniel Jarrett, Mihaela van der Schaar, NIPS, 2019).**
 
