@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # TimeGAN-Pytorch
 Time generative adversarial network (Pytorch)   
 Please change the branch to `master`
